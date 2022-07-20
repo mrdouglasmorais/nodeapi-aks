@@ -1,7 +1,8 @@
-/* eslint-disable no-console */
 /* eslint-disable func-names */
+/* eslint-disable no-console */
 const environment = process.env.ENVIRONMENT || 'development';
 
+// eslint-disable-next-line func-names
 const Logger = function () {};
 
 Logger.prototype.info = function (logText) {
